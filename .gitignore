@@ -1,0 +1,36 @@
+# Environment variables (contains API keys)
+.env
+
+# Vector database
+db/
+dbv1/
+
+# Generated artifacts
+chunks_export.json
+*.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+*.egg
+venv/
+.venv/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docs (large binaries)
+docs/*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
